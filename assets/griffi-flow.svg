@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+  <title id="title">How Griffi connects work</title>
+  <desc id="desc">Voice, email, and chat converge into shared business context. Griffi prepares appointments, drafts, and documents for human review and approval.</desc>
+  <defs>
+    <linearGradient id="accent" x1="115" y1="40" x2="1080" y2="235" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FA5617"/>
+      <stop offset="1" stop-color="#EE0B74"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity=".25"/>
+    </filter>
+    <clipPath id="round">
+      <rect width="1200" height="270" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="270" fill="#09090B"/>
+    <circle cx="594" cy="135" r="150" fill="#FA5617" opacity=".035"/>
+    <circle cx="819" cy="135" r="140" fill="#EE0B74" opacity=".035"/>
+
+    <g fill="none" stroke="url(#accent)" stroke-width="2" opacity=".9">
+      <path d="M246 70C330 70 352 124 423 133"/>
+      <path d="M246 135H423"/>
+      <path d="M246 200C330 200 352 146 423 137"/>
+      <path d="M637 135H739"/>
+      <path d="M940 135H1010"/>
+    </g>
+    <g fill="#FA5617">
+      <circle cx="423" cy="133" r="4"/>
+      <circle cx="423" cy="135" r="4"/>
+      <circle cx="423" cy="137" r="4"/>
+    </g>
+    <circle cx="739" cy="135" r="4" fill="#F43653"/>
+    <circle cx="1010" cy="135" r="4" fill="#EE0B74"/>
+
+    <g font-family="Poppins, Segoe UI, Arial, sans-serif">
+      <text x="52" y="38" fill="#71717A" font-size="12" font-weight="600" letter-spacing="2">COMES IN</text>
+      <g filter="url(#shadow)">
+        <rect x="52" y="49" width="194" height="43" rx="12" fill="#18181B" stroke="#3F3F46"/>
+        <rect x="52" y="114" width="194" height="43" rx="12" fill="#18181B" stroke="#3F3F46"/>
+        <rect x="52" y="179" width="194" height="43" rx="12" fill="#18181B" stroke="#3F3F46"/>
+      </g>
+      <circle cx="78" cy="70" r="5" fill="#FA5617"/>
+      <circle cx="78" cy="135" r="5" fill="#F43653"/>
+      <circle cx="78" cy="200" r="5" fill="#EE0B74"/>
+      <text x="95" y="76" fill="#F4F4F5" font-size="16" font-weight="600">Voice</text>
+      <text x="95" y="141" fill="#F4F4F5" font-size="16" font-weight="600">Email</text>
+      <text x="95" y="206" fill="#F4F4F5" font-size="16" font-weight="600">Chat</text>
+
+      <text x="423" y="38" fill="#71717A" font-size="12" font-weight="600" letter-spacing="2">BECOMES CONTEXT</text>
+      <g filter="url(#shadow)">
+        <rect x="423" y="67" width="214" height="136" rx="18" fill="#18181B" stroke="url(#accent)" stroke-width="1.5"/>
+      </g>
+      <text x="530" y="115" fill="#FAFAFA" text-anchor="middle" font-size="24" font-weight="700">Griffi</text>
+      <path d="M471 133C483 133 487 116 499 116S515 151 527 133 544 114 556 133 573 150 585 133 598 131 603 133" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="530" y="171" fill="#A1A1AA" text-anchor="middle" font-size="13">cases · knowledge · customers</text>
+
+      <text x="739" y="38" fill="#71717A" font-size="12" font-weight="600" letter-spacing="2">GETS PREPARED</text>
+      <g filter="url(#shadow)">
+        <rect x="739" y="67" width="201" height="136" rx="18" fill="#18181B" stroke="#3F3F46"/>
+      </g>
+      <text x="769" y="105" fill="#F4F4F5" font-size="15" font-weight="600">Appointments</text>
+      <text x="769" y="139" fill="#F4F4F5" font-size="15" font-weight="600">Replies &amp; follow-up</text>
+      <text x="769" y="173" fill="#F4F4F5" font-size="15" font-weight="600">Quotes &amp; invoices</text>
+
+      <text x="1010" y="38" fill="#71717A" font-size="12" font-weight="600" letter-spacing="2">STAYS CONTROLLED</text>
+      <g filter="url(#shadow)">
+        <rect x="1010" y="88" width="151" height="94" rx="18" fill="url(#accent)"/>
+      </g>
+      <path d="M1041 133l12 12 25-28" fill="none" stroke="#09090B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="1094" y="129" fill="#09090B" font-size="14" font-weight="700">Human</text>
+      <text x="1094" y="150" fill="#09090B" font-size="14" font-weight="700">approval</text>
+    </g>
+  </g>
+</svg>
