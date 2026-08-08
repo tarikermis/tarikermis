@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="600" viewBox="0 0 620 600" role="img" aria-labelledby="title desc">
+  <title id="title">Tarik Ermis</title>
+  <desc id="desc">Software architect, AI engineer, and founder of n3tz. I build what others plan.</desc>
+  <defs>
+    <linearGradient id="accent" x1="56" y1="50" x2="560" y2="550" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FA5617"/>
+      <stop offset="0.58" stop-color="#F43653"/>
+      <stop offset="1" stop-color="#EE0B74"/>
+    </linearGradient>
+    <radialGradient id="wash" cx="0" cy="0" r="1" gradientTransform="translate(455 386) rotate(180) scale(270 210)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FA5617" stop-opacity=".15"/>
+      <stop offset=".68" stop-color="#EE0B74" stop-opacity=".045"/>
+      <stop offset="1" stop-color="#09090B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#27272A" stroke-width="1" opacity=".34"/>
+    </pattern>
+    <clipPath id="round">
+      <rect width="620" height="600" rx="26"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="620" height="600" fill="#09090B"/>
+    <rect width="620" height="600" fill="url(#grid)" opacity=".44"/>
+    <rect width="620" height="600" fill="url(#wash)"/>
+
+    <path d="M354 367C410 327 455 356 490 399C531 451 564 394 610 361" fill="none" stroke="url(#accent)" stroke-width="1.8" opacity=".7"/>
+    <path d="M337 526C403 488 431 520 481 479C532 437 571 484 619 526" fill="none" stroke="url(#accent)" stroke-width="1.8" opacity=".7"/>
+    <path d="M400 330C433 386 430 434 490 444C553 455 572 504 568 572" fill="none" stroke="url(#accent)" stroke-width="1.8" opacity=".7"/>
+    <path d="M317 444C383 426 431 447 490 444C550 441 589 436 628 423" fill="none" stroke="url(#accent)" stroke-width="1.8" opacity=".7"/>
+    <g fill="url(#accent)">
+      <circle cx="354" cy="367" r="7"/>
+      <circle cx="400" cy="330" r="5"/>
+      <circle cx="610" cy="361" r="6"/>
+      <circle cx="337" cy="526" r="6"/>
+      <circle cx="568" cy="572" r="5"/>
+    </g>
+    <circle cx="490" cy="444" r="12" fill="#18181B" stroke="url(#accent)" stroke-width="4"/>
+
+    <rect x="51" y="51" width="10" height="10" rx="5" fill="#FA5617"/>
+    <text x="78" y="62" fill="#A1A1AA" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="3">TARIK ERMIS</text>
+
+    <text x="49" y="154" fill="#FAFAFA" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="50" font-weight="700" letter-spacing="-1.2">I build what</text>
+    <text x="49" y="218" fill="url(#accent)" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="57" font-weight="700" letter-spacing="-1.5">others plan.</text>
+    <text x="52" y="268" fill="#D4D4D8" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="20">Software architect · AI engineer</text>
+    <text x="52" y="299" fill="#D4D4D8" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="20">Founder of n3tz</text>
+
+    <line x1="52" y1="358" x2="289" y2="358" stroke="#3F3F46"/>
+    <text x="52" y="394" fill="#FAFAFA" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">10+</text>
+    <text x="52" y="419" fill="#71717A" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="1.4">YEARS SOFTWARE</text>
+    <text x="177" y="394" fill="#FAFAFA" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">5+</text>
+    <text x="177" y="419" fill="#71717A" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="1.4">YEARS AI</text>
+    <text x="52" y="552" fill="#71717A" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2.4">PIXELS → PACKETS</text>
+  </g>
+</svg>

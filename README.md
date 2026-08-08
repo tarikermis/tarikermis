@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Tarik Ermis — software architect, AI engineer, and founder of n3tz" width="100%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg" />
+    <img src="./assets/hero.svg" alt="Tarik Ermis — software architect, AI engineer, and founder of n3tz" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
@@ -33,27 +36,17 @@ I build production AI systems and full-stack products—from realtime voice agen
 </table>
 
 <p align="center">
-  <img src="./assets/griffi-flow.svg" alt="Voice, email, and chat converge into shared business context; Griffi prepares appointments and documents for human review" width="100%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/griffi-flow-mobile.svg" />
+    <img src="./assets/griffi-flow.svg" alt="Voice, email, and chat converge into shared business context; Griffi prepares appointments and documents for human review" width="100%" />
+  </picture>
 </p>
 
 ## From model to metal
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>AI systems</h3>
-      <p>Conversational AI, retrieval, tool use, evaluation, guardrails, and realtime voice—designed around useful behavior, not a model demo.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Product engineering</h3>
-      <p>I move between interface, API, data model, and business workflow to turn ambiguous ideas into coherent products.</p>
-    </td>
-    <td width="34%" valign="top">
-      <h3>Production operations</h3>
-      <p>Containers, infrastructure, observability, security, backups, and guarded releases are part of the product—not an afterthought.</p>
-    </td>
-  </tr>
-</table>
+- **AI systems** — conversational AI, retrieval, tool use, evaluation, guardrails, and realtime voice designed around useful behavior, not a model demo.
+- **Product engineering** — interface, API, data model, and business workflow shaped together, turning ambiguous ideas into coherent products.
+- **Production operations** — containers, infrastructure, observability, security, backups, and guarded releases as part of the product, not an afterthought.
 
 `TypeScript` · `Python` · `React` · `Next.js` · `PostgreSQL` · `LiveKit` · `Docker` · `Cloudflare` · `Hetzner`
 
